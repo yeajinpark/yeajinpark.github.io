@@ -3475,15 +3475,15 @@ input[type="button"].btn-block {
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
-  color: #16181b;
+  color: var(--yj4_dark_gray);
   text-decoration: none;
-  background-color: #f8f9fa;
+  background-color: var(--yj3_yellow);
 }
 
 .dropdown-item.active, .dropdown-item:active {
-  color: #fff;
+  color: var(--yj2_gray);
   text-decoration: none;
-  background-color: #1abc9c;
+  background-color: var(--yj3_yellow);
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
