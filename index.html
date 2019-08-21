@@ -389,7 +389,7 @@
                                 <p>Title</p>
                             </div>
                             <div class="body">
-                                <p>アモーレパシフィックジャパン株式会社</p>
+                                <p id="exp1_body_title">アモーレパシフィックジャパン株式会社</p>
                                 <ul>
                                     <li>Rerum sit libero possimus amet excepturi</li>
                                     <li>Exercitationem enim dolores sunt praesentium dolorum praesentium</li>
@@ -403,7 +403,7 @@
                                 <p>Title</p>
                             </div>
                             <div class="body">
-                                <p>株式会社Ｅストアー</p>
+                                <p id="exp2_body_title">株式会社Ｅストアー</p>
                                 <ul>
                                     <li>Rerum sit libero possimus amet excepturi</li>
                                     <li>Exercitationem enim dolores sunt praesentium dolorum praesentium</li>
@@ -440,7 +440,21 @@
                                 <p>Education</p>
                             </div>
                             <div class="body">
-                                <p>デザイン学校就学</p>
+                                <p id="edu1_body_title">デザイン学校就学</p>
+                                <ul>
+                                    <li>Rerum sit libero possimus amet excepturi</li>
+                                    <li>Exercitationem enim dolores sunt praesentium dolorum praesentium</li>
+                                    <li>Modi aut dolores dignissimos sequi sit ut aliquid molestias deserunt illo</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="entry">
+                            <div class="title">
+                                <h3>2009 - 2013</h3>
+                                <p>Bachelor's degree</p>
+                            </div>
+                            <div class="body">
+                                <p id="edu2_body_title">大阪産業大学　経営学部　流通学科</p>
                                 <ul>
                                     <li>Rerum sit libero possimus amet excepturi</li>
                                     <li>Exercitationem enim dolores sunt praesentium dolorum praesentium</li>
@@ -454,30 +468,16 @@
                                 <p>Certification</p>
                             </div>
                             <div class="body">
-                                <p>日本語能力試験1級取得</p>
-                            </div>
-                        </div>
-                        <div class="entry">
-                            <div class="title">
-                                <h3>2009 - 2013</h3>
-                                <p>Bachelor's degree(大学)</p>
-                            </div>
-                            <div class="body">
-                                <p>大阪産業大学　経営学部　流通学科</p>
-                                <ul>
-                                    <li>Rerum sit libero possimus amet excepturi</li>
-                                    <li>Exercitationem enim dolores sunt praesentium dolorum praesentium</li>
-                                    <li>Modi aut dolores dignissimos sequi sit ut aliquid molestias deserunt illo</li>
-                                </ul>
+                                <p id="edu3_body_title">日本語能力試験1級取得</p>
                             </div>
                         </div>
                         <div class="entry">
                             <div class="title">
                                 <h3>2006 - 2009</h3>
-                                <p>High school(高等学校)</p>
+                                <p>High school</p>
                             </div>
                             <div class="body">
-                                <p>柳川高等学校　国際科</p>
+                                <p id="edu4_body_title">柳川高等学校　国際科</p>
                                 <ul>
                                     <li>Rerum sit libero possimus amet excepturi</li>
                                     <li>Exercitationem enim dolores sunt praesentium dolorum praesentium</li>
@@ -1126,7 +1126,14 @@
 			$('#modal4_project_content').text(content.modal4_project_content);
 			$('#modal5_project_content').text(content.modal5_project_content);
 			$('#modal6_project_content').text(content.modal6_project_content);
+			
+            $('#exp1_body_title').text(content.exp1_body_title);
+            $('#exp2_body_title').text(content.exp2_body_title);
 
+            $('#edu1_body_title').text(content.edu1_body_title);
+            $('#edu2_body_title').text(content.edu2_body_title);
+            $('#edu3_body_title').text(content.edu3_body_title);
+            $('#edu4_body_title').text(content.edu4_body_title);
         }
 
         $(function() {

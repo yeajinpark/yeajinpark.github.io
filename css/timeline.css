@@ -30,7 +30,7 @@
   left: calc(33% + 15px);
   bottom: 0px;
   width: 4px;
-  background: #ddd;
+  background: #f4f4f2;
 }
 .timeline-box .timeline:after {
   content: "";
