@@ -18,25 +18,27 @@
 
     <!-- Theme CSS -->
     <link href="css/freelancer.css" rel="stylesheet">
+    <!-- Timeline CSS -->
+    <link href="css/timeline.css" rel="stylesheet">
     <style>
         b {
             margin-right: 5px;
         }
-
+        
         .text-yj {
             color: #1a1a1a !important;
         }
-
+        
         .portfolio-item {
             border: 2px solid var(--yj3_yellow);
         }
-
+        
         .portfolio-image {
-            object-fit: cover; 
-            width: 100%; 
+            object-fit: cover;
+            width: 100%;
             height: 209px;
             object-position: 0% 0;
-		}
+        }
         
         .carousel-control-prev {
             margin-left: -13%;
@@ -244,12 +246,13 @@
             </div>
 
             <!-- Masthead Subheading -->
-            <p class="masthead-subheading font-weight-light mb-0" id="headline_1">初めまして。Webデザイナー３年目の朴イェジンと申します。</p>
-            <p class="masthead-subheading font-weight-light mb-0" id="headline_2">ECサイトを中心に新規立ち上げ制作・リニューアル制作・LP制作のデザイン、 コーディング（HTML/CSS）を担当しました。</p>
+            <p class="masthead-subheading font-weight-light mb-0" id="headline_1"></p>
+            <p class="masthead-subheading font-weight-light mb-0" id="headline_2"></p>
+            <p class="masthead-subheading font-weight-light mb-0" id="headline_3"></p>
 
             <!-- About Section Button -->
             <div class="text-center mt-4">
-                <a class="btn btn-xl btn-outline-light" href="YeajinPark.pdf"><i class="fas fa-download mr-2"></i> Resume Download!</a>
+                <a class="btn btn-xl btn-primary" href="YeajinPark.pdf"><i class="fas fa-download mr-2"></i> Resume Download!</a>
             </div>
         </div>
     </header>
@@ -278,7 +281,7 @@
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">
-                                <span>いずみBODYラボ</span>
+                                <span id="modal1_title_ext">いずみBODYラボ</span>
                                 <br>
                                 <i class="fas fa-plus fa-3x"></i>
                             </div>
@@ -292,7 +295,7 @@
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">
-                                <span>協和医療器</span>
+                                <span id="modal2_title_ext">協和医療器</span>
                                 <br>
                                 <i class="fas fa-plus fa-3x"></i>
                             </div>
@@ -306,7 +309,7 @@
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">
-                                <span>COSMETICS TACT-JAPAN</span>
+                                <span id="modal3_title_ext">COSMETICS TACT-JAPAN</span>
                                 <br>
                                 <i class="fas fa-plus fa-3x"></i>
                             </div>
@@ -320,7 +323,7 @@
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">
-                                <span>日本一こだわり卵 SAILOR</span>
+                                <span id="modal4_title_ext">日本一こだわり卵 SAILOR</span>
                                 <br>
                                 <i class="fas fa-plus fa-3x"></i>
                             </div>
@@ -334,7 +337,7 @@
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">
-                                <span>築地のお魚岩瀬</span>
+                                <span id="modal5_title_ext">築地のお魚岩瀬</span>
                                 <br>
                                 <i class="fas fa-plus fa-3x"></i>
                             </div>
@@ -348,7 +351,7 @@
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">
-                                <span>丹後王国匠庵別館</span>
+                                <span id="modal6_title_ext">丹後王国匠庵別館</span>
                                 <br>
                                 <i class="fas fa-plus fa-3x"></i>
                             </div>
@@ -377,6 +380,40 @@
                 </div>
                 <div class="divider-custom-line"></div>
             </div>
+            <div class="row">
+                <div class="timeline-box">
+                    <div class="timeline">
+                        <div class="entry">
+                            <div class="title">
+                                <h3>2018 - Present</h3>
+                                <p>Title</p>
+                            </div>
+                            <div class="body">
+                                <p>アモーレパシフィックジャパン株式会社</p>
+                                <ul>
+                                    <li>Rerum sit libero possimus amet excepturi</li>
+                                    <li>Exercitationem enim dolores sunt praesentium dolorum praesentium</li>
+                                    <li>Modi aut dolores dignissimos sequi sit ut aliquid molestias deserunt illo</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="entry">
+                            <div class="title">
+                                <h3>2013 - 2018</h3>
+                                <p>Title</p>
+                            </div>
+                            <div class="body">
+                                <p>株式会社Ｅストアー</p>
+                                <ul>
+                                    <li>Rerum sit libero possimus amet excepturi</li>
+                                    <li>Exercitationem enim dolores sunt praesentium dolorum praesentium</li>
+                                    <li>Modi aut dolores dignissimos sequi sit ut aliquid molestias deserunt illo</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -384,7 +421,7 @@
     <section class="page-section" id="education">
         <div class="container">
             <!-- Education Section Heading -->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Education</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Education & Certifications</h2>
 
             <!-- Icon Divider -->
             <div class="divider-custom">
@@ -393,6 +430,63 @@
                     <i class="fas fa-graduation-cap"></i>
                 </div>
                 <div class="divider-custom-line"></div>
+            </div>
+            <div class="row">
+                <div class="timeline-box">
+                    <div class="timeline">
+                        <div class="entry">
+                            <div class="title">
+                                <h3>2016/04 - 2017/03</h3>
+                                <p>Education</p>
+                            </div>
+                            <div class="body">
+                                <p>デザイン学校就学</p>
+                                <ul>
+                                    <li>Rerum sit libero possimus amet excepturi</li>
+                                    <li>Exercitationem enim dolores sunt praesentium dolorum praesentium</li>
+                                    <li>Modi aut dolores dignissimos sequi sit ut aliquid molestias deserunt illo</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="entry">
+                            <div class="title">
+                                <h3>2009/01</h3>
+                                <p>Certification</p>
+                            </div>
+                            <div class="body">
+                                <p>日本語能力試験1級取得</p>
+                            </div>
+                        </div>
+                        <div class="entry">
+                            <div class="title">
+                                <h3>2009 - 2013</h3>
+                                <p>Bachelor's degree(大学)</p>
+                            </div>
+                            <div class="body">
+                                <p>大阪産業大学　経営学部　流通学科</p>
+                                <ul>
+                                    <li>Rerum sit libero possimus amet excepturi</li>
+                                    <li>Exercitationem enim dolores sunt praesentium dolorum praesentium</li>
+                                    <li>Modi aut dolores dignissimos sequi sit ut aliquid molestias deserunt illo</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="entry">
+                            <div class="title">
+                                <h3>2006 - 2009</h3>
+                                <p>High school(高等学校)</p>
+                            </div>
+                            <div class="body">
+                                <p>柳川高等学校　国際科</p>
+                                <ul>
+                                    <li>Rerum sit libero possimus amet excepturi</li>
+                                    <li>Exercitationem enim dolores sunt praesentium dolorum praesentium</li>
+                                    <li>Modi aut dolores dignissimos sequi sit ut aliquid molestias deserunt illo</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -436,12 +530,22 @@
                     </div>
                     <div class="timeline-container timeline-left">
                         <div class="timeline-content">
-                            <h2>2013-現在</h2>
+                            <h2>2013-2018</h2>
                             <img src="img/profile/third.jpg" class="img-fluid">
                             <p id="timeline3_1">株式会社Eストアー（ネット通販総合支援事業）</p>
                             <p id="timeline3_2">☆モール型ECサイトの運営及びWeb広告を担当</p>
                             <p id="timeline3_3">☆ECサイトの制作</p>
                             <p id="timeline3_4">_東京</p>
+                        </div>
+                    </div>
+                    <div class="timeline-container timeline-right">
+                        <div class="timeline-content">
+                            <h2>2018-Present</h2>
+                            <img src="img/profile/fourth.jpg" class="img-fluid portfolio-image">
+                            <p id="timeline4_1">アモーレパシフィックジャパン株式会社</p>
+                            <p id="timeline4_2">☆モール型ECサイトの運営及びWeb広告を担当</p>
+                            <p id="timeline4_3">☆ECサイトの制作</p>
+                            <p id="timeline4_4">_東京</p>
                         </div>
                     </div>
                 </div>
@@ -524,7 +628,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title -->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">いずみBODYラボ</h2>
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="modal1_title">いずみBODYラボ</h2>
                                 <!-- Icon Divider -->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
@@ -539,13 +643,13 @@
                                         <div class="carousel-item active">
                                             <img src="img/portfolio/izumi/first.jpg" class="img-fluid rounded mb-5" alt="izumi_first">
                                             <div align="left">
-                                                <b class="modal_site_name">サイト名：</b>いずみBODYラボ
+                                                <b class="modal_site_name">サイト名：</b><span id="modal1_site_name">いずみBODYラボ</span>
                                                 <br>
                                                 <b>URL：</b><a href="https://www.izumi-bf-labo.co.jp">https://www.izumi-bf-labo.co.jp</a></br>
-                                                <b class="modal_product_class">取扱商品：</b>女性下着</br>
+                                                <b class="modal_product_class">取扱商品：</b><span id="modal1_product_class">女性下着</span></br>
                                                 <b class="modal_period">制作期間：</b>2017_07/2～2017_09/20</br>
                                                 <b class="modal_scale">案件規模：</b>240万円</br>
-                                                <b class="modal_project_content">業務内容：</b>デザイン担当</br>
+                                                <b class="modal_project_content">業務内容：</b><span id="modal1_project_content">デザイン担当</span></br>
                                                 <ul>
                                                     <li>TOPページ/LP/各階層ページ</li>
                                                     <li>ロゴ制作（サイトロゴ/ Princessシリーズブランドロゴ</li>
@@ -624,7 +728,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title -->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">協和医療器</h2>
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="modal2_title">協和医療器</h2>
                                 <!-- Icon Divider -->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
@@ -639,13 +743,13 @@
                                         <div class="carousel-item active">
                                             <img src="img/portfolio/su/first.jpg" class="img-fluid rounded mb-5" alt="su_first">
                                             <div align="left">
-                                                <b class="modal_site_name">サイト名：</b>協和医療器
+                                                <b class="modal_site_name">サイト名：</b><span id="modal2_site_name">協和医療器</span>
                                                 <br>
                                                 <b>URL：</b><a href="http://kyowa-online.com/lp/su/">http://kyowa-online.com/lp/su/</a></br>
-                                                <b class="modal_product_class">取扱商品：</b>健康/美容医療器</br>
+                                                <b class="modal_product_class">取扱商品：</b><span id="modal2_product_class">健康/美容医療器</span></br>
                                                 <b class="modal_period">制作期間：</b>2017_04/12～2017_04/17</br>
                                                 <b class="modal_scale">案件規模：</b>10万円</br>
-                                                <b class="modal_project_content">業務内容：</b>デザイン担当（ティザーサイト/LP）※レスポンシブデザイン</br>
+                                                <b class="modal_project_content">業務内容：</b><span id="modal2_project_content">デザイン担当（ティザーサイト/LP）※レスポンシブデザイン</span></br>
                                                 <b class="modal_points">制作のポイント：</b>
                                                 <br>
                                                 <p class="modal_teaser_lp">【ティザーサイト・LP制作】</p>
@@ -687,7 +791,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title -->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">COSMETICS TACT-JAPAN</h2>
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="modal3_title">COSMETICS TACT-JAPAN</h2>
                                 <!-- Icon Divider -->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
@@ -701,13 +805,13 @@
                                         <div class="carousel-item active">
                                             <img src="img/portfolio/cosmetics_tact_japan/first.jpg" class="img-fluid rounded mb-5" alt="cosmetics_tact_japan_first">
                                             <div align="left">
-                                                <b class="modal_site_name">サイト名：</b>COSMETICS TACT-JAPAN
+                                                <b class="modal_site_name">サイト名：</b><span id="modal3_site_name">COSMETICS TACT-JAPAN</span>
                                                 <br>
                                                 <b>URL：</b><a href="http://tact-cosme.ev.shopserve.jp/">http://tact-cosme.ev.shopserve.jp/</a></br>
-                                                <b class="modal_product_class">取扱商品：</b>シャンプー</br>
+                                                <b class="modal_product_class">取扱商品：</b><span id="modal3_product_class">シャンプー</span></br>
                                                 <b class="modal_period">制作期間：</b>2016_10/04～2016_10/07</br>
                                                 <b class="modal_scale">案件規模：</b>20万円</br>
-                                                <b class="modal_project_content">業務内容：</b>デザインからコーディングまですべてを担当</br>
+                                                <b class="modal_project_content">業務内容：</b><span id="modal3_project_content">デザインからコーディングまですべてを担当</span></br>
                                                 <b class="modal_points">制作のポイント：</b>
                                                 <br>
                                                 <p class="modal_lp">【LP制作】</p>
@@ -749,7 +853,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title -->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">日本一こだわり卵 SAILOR</h2>
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="modal4_title">日本一こだわり卵 SAILOR</h2>
                                 <!-- Icon Divider -->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
@@ -764,13 +868,13 @@
                                         <div class="carousel-item active">
                                             <img src="img/portfolio/sailor/first.jpg" class="img-fluid rounded mb-5" alt="sailor_first">
                                             <div align="left">
-                                                <b class="modal_site_name">サイト名：</b>日本一こだわり卵 SAILOR
+                                                <b class="modal_site_name">サイト名：</b><span id="modal4_site_name">日本一こだわり卵 SAILOR</span>
                                                 <br>
                                                 <b>URL：</b><a href="http://www.kodawaritamago.com/">http://www.kodawaritamago.com/</a></br>
-                                                <b class="modal_product_class">取扱商品：</b>食品・加工食品・調味料</br>
+                                                <b class="modal_product_class">取扱商品：</b><span id="modal4_product_class">食品・加工食品・調味料</span></br>
                                                 <b class="modal_period">制作期間：</b>2016_09/20～2016_09/26</br>
                                                 <b class="modal_scale">案件規模：</b>25万円</br>
-                                                <b class="modal_project_content">業務内容：</b>デザインからコーディングまですべてを担当</br>
+                                                <b class="modal_project_content">業務内容：</b><span id="modal4_project_content">デザインからコーディングまですべてを担当</span></br>
                                                 <b class="modal_points">制作のポイント：</b>
                                                 <br>
                                                 <p class="modal_brand_new">【新規立ち上げ】</p>
@@ -817,7 +921,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title -->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">築地のお魚岩瀬</h2>
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="modal5_title">築地のお魚岩瀬</h2>
                                 <!-- Icon Divider -->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
@@ -832,15 +936,16 @@
                                         <div class="carousel-item active">
                                             <img src="img/portfolio/osakana/first.jpg" class="img-fluid rounded mb-5" alt="osakana_first">
                                             <div align="left">
-                                                <b class="modal_site_name">サイト名：</b>築地のお魚岩瀬
+                                                <b class="modal_site_name">サイト名：</b><span id="modal5_site_name">築地のお魚岩瀬</span>
                                                 <br>
                                                 <b>URL：</b><a href="http://www.osakanaiwase.com/">http://www.osakanaiwase.com/</a></br>
-                                                <b class="modal_product_class">取扱商品：</b>海産物</br>
+                                                <b class="modal_product_class">取扱商品：</b><span id="modal5_product_class">海産物</span></br>
                                                 <b class="modal_period">制作期間：</b>2016_07/14～2016_07/21</br>
                                                 <b class="modal_scale">案件規模：</b>30万円</br>
-                                                <b class="modal_project_content">業務内容：</b>デザインからコーディングまですべてを担当</br>
+                                                <b class="modal_project_content">業務内容：</b><span id="modal5_project_content">デザインからコーディングまですべてを担当</span></br>
                                                 <b class="modal_achievements">成果：</b>サイトの転換率を前年同期比3%向上
-                                                <br>2015年8～11月転換率5%(月) →2016年8～11月転換率8% (月)<br>
+                                                <br>2015年8～11月転換率5%(月) →2016年8～11月転換率8% (月)
+                                                <br>
                                                 <b class="modal_points">制作のポイント：</b>
                                                 <br>
                                                 <p class="modal_renewal">【リニューアル制作】</p>
@@ -884,7 +989,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title -->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">丹後王国匠庵別館</h2>
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="modal6_title">丹後王国匠庵別館</h2>
                                 <!-- Icon Divider -->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
@@ -899,13 +1004,13 @@
                                         <div class="carousel-item active">
                                             <img src="img/portfolio/tango_kingdom/first.jpg" class="img-fluid rounded mb-5" alt="tango_kingdom_first">
                                             <div align="left">
-                                                <b class="modal_site_name">サイト名：</b>丹後王国匠庵別館
+                                                <b class="modal_site_name">サイト名：</b><span id="modal6_site_name">丹後王国匠庵別館</span>
                                                 <br>
                                                 <b>URL：</b><a href="http://tango-kingdom-onlineshop.com/">http://tango-kingdom-onlineshop.com/</a></br>
-                                                <b class="modal_product_class">取扱商品：</b>生産者直接仕入れの食品や自社生産の食品</br>
+                                                <b class="modal_product_class">取扱商品：</b><span id="modal6_product_class">生産者直接仕入れの食品や自社生産の食品</span></br>
                                                 <b class="modal_period">制作期間：</b>2016_02/04～2016_02/16</br>
                                                 <b class="modal_scale">案件規模：</b>50万円</br>
-                                                <b class="modal_project_content">業務内容：</b>デザインからコーディングまですべてを担当</br>
+                                                <b class="modal_project_content">業務内容：</b><span id="modal6_project_content">デザインからコーディングまですべてを担当</span></br>
                                                 <b class="modal_points">制作のポイント：</b>
                                                 <br>
                                                 <p class="modal_brand_new">【新規立ち上げ】</p>
@@ -957,13 +1062,14 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/freelancer.min.js"></script>
-	<script src="js/langpack.js"></script>
+    <script src="js/langpack.js"></script>
     <script>
         function loadLang(content) {
             console.log(content);
             $('#masterhead_name').text(content.name);
             $('#headline_1').text(content.headline_1);
             $('#headline_2').text(content.headline_2);
+            $('#headline_3').text(content.headline_3);
             $('.modal_site_name').text(content.site_name_title);
             $('.modal_product_class').text(content.product_class_title);
             $('.modal_period').text(content.producing_period_title);
@@ -976,16 +1082,51 @@
             $('.modal_renewal').text(content.project_renewal_title);
             $('.modal_teaser_lp').text(content.project_teaser_lp_title);
             $('.modal_lp').text(content.project_lp_title);
-			$('#timeline1_1').text(content.timeline1_1);
+            $('#timeline1_1').text(content.timeline1_1);
             $('#timeline1_2').text(content.timeline1_2);
             $('#timeline1_3').text(content.timeline1_3);
-			$('#timeline2_1').text(content.timeline2_1);
+            $('#timeline2_1').text(content.timeline2_1);
             $('#timeline2_2').text(content.timeline2_2);
             $('#timeline2_3').text(content.timeline2_3);
-			$('#timeline3_1').text(content.timeline3_1);
+            $('#timeline3_1').text(content.timeline3_1);
             $('#timeline3_2').text(content.timeline3_2);
             $('#timeline3_3').text(content.timeline3_3);
             $('#timeline3_4').text(content.timeline3_4);
+            $('#timeline4_1').text(content.timeline4_1);
+            $('#timeline4_2').text(content.timeline4_2);
+            $('#timeline4_3').text(content.timeline4_3);
+            $('#timeline4_4').text(content.timeline4_4);
+            $('#modal1_title').text(content.modal1_title);
+            $('#modal1_title_ext').text(content.modal1_title);
+            $('#modal1_site_name').text(content.modal1_title);
+            $('#modal2_title').text(content.modal2_title);
+            $('#modal2_title_ext').text(content.modal2_title);
+            $('#modal2_site_name').text(content.modal2_title);
+            $('#modal3_title').text(content.modal3_title);
+            $('#modal3_title_ext').text(content.modal3_title);
+            $('#modal3_site_name').text(content.modal3_title);
+            $('#modal4_title').text(content.modal4_title);
+            $('#modal4_title_ext').text(content.modal4_title);
+            $('#modal4_site_name').text(content.modal4_title);
+            $('#modal5_title').text(content.modal5_title);
+            $('#modal5_title_ext').text(content.modal5_title);
+            $('#modal5_site_name').text(content.modal5_title);
+            $('#modal6_title').text(content.modal6_title);
+            $('#modal6_title_ext').text(content.modal6_title);
+            $('#modal6_site_name').text(content.modal6_title);
+			$('#modal1_product_class').text(content.modal1_product_class);
+			$('#modal2_product_class').text(content.modal2_product_class);
+			$('#modal3_product_class').text(content.modal3_product_class);
+			$('#modal4_product_class').text(content.modal4_product_class);
+			$('#modal5_product_class').text(content.modal5_product_class);
+			$('#modal6_product_class').text(content.modal6_product_class);
+			$('#modal1_project_content').text(content.modal1_project_content);
+			$('#modal2_project_content').text(content.modal2_project_content);
+			$('#modal3_project_content').text(content.modal3_project_content);
+			$('#modal4_project_content').text(content.modal4_project_content);
+			$('#modal5_project_content').text(content.modal5_project_content);
+			$('#modal6_project_content').text(content.modal6_project_content);
+
         }
 
         $(function() {
