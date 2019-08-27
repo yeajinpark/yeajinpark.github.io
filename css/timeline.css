@@ -82,14 +82,28 @@
 }
 .timeline-box .entry .body p:first-child {
   margin-top: 0;
-  font-weight: 400;
+  font-weight: bold;
 }
 .timeline-box .entry .body ul {
-  color: #aaa;
+  color: #1a1a1a;
   padding-left: 0;
   list-style-type: none;
+  font-weight: bold;
 }
 .timeline-box .entry .body ul li:before {
-  content: "–";
+  content: "•";
+  margin-right: .5em;
+  margin-bottom: .5em;
+}
+
+.timeline-box .entry .body ul ul {
+  color: #1a1a1a;
+  padding-left: 10px;
+  font-size: 90%;
+  list-style-type: none;
+  font-weight: normal;
+}
+.timeline-box .entry .body ul ul li:before {
+  content: "-";
   margin-right: .5em;
 }
