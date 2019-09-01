@@ -76,6 +76,13 @@
   width: 66%;
   padding-left: 30px;
 }
+
+.timeline-box .entry .body-end {
+  float: right;
+  width: 66%;
+  padding-left: 30px;
+}
+
 .timeline-box .entry .body p {
   line-height: 1.4em;
 }
