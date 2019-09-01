@@ -26,7 +26,7 @@
   content: '';
   position: absolute;
   top: 0px;
-  left: calc(33% + 15px);
+  left: 33%;
   bottom: 0px;
   width: 4px;
   background: #f4f4f2;
@@ -46,7 +46,7 @@
   margin-bottom: .5em;
   float: left;
   width: 33%;
-  padding-right: 30px;
+  padding-right: 40px;
   text-align: right;
   position: relative;
 }
@@ -59,7 +59,7 @@
   background-color: #ffda2f;
   border-radius: 100%;
   top: 15%;
-  right: -4px;
+  right: 11px;
   z-index: 99;
 }
 .timeline-box .entry .title h3 {
@@ -126,7 +126,7 @@
     background-color: #ffda2f;
     border-radius: 100%;
     top: 15%;
-    right: -14px;
+    right: 1px;
     z-index: 99;
   }
 }
