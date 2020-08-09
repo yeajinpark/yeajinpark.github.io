@@ -143,7 +143,7 @@
 
             <!-- About Section Button -->
             <div class="text-center mt-4">
-                <a class="btn btn-xl btn-primary" href="YeajinPark.pdf"><i class="fas fa-download mr-2"></i> Resume Download!</a>
+                <a id="btn_download" class="btn btn-xl btn-primary" href="#"><i class="fas fa-download mr-2"></i> Resume Download!</a>
             </div>
         </div>
     </header>
@@ -1145,12 +1145,14 @@
             };
 
             var lang = getUrlParameter('lang');
-            if (lang == "kr") {
-                // kr
-                loadLang(content_kr);
-            } else {
+            if (lang == "jp") {
                 // jp
                 loadLang(content_jp);
+                $('#btn_download').attr("href", "YeajinPark_jp.pdf");
+            } else {
+                // kr
+                loadLang(content_kr);
+                $('#btn_download').attr("href", "YeajinPark_ko.pdf");
             }
         });
     </script>
