@@ -1,3 +1,4 @@
+var default_lang = "jp"
 var content_jp = {
     name: "Yeajin Park",
     name_sub: "",

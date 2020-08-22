@@ -1149,10 +1149,21 @@
                 // jp
                 loadLang(content_jp);
                 $('#btn_download').attr("href", "YeajinPark_jp.pdf");
-            } else {
+            } else if (lang == "kr") {
                 // kr
                 loadLang(content_kr);
                 $('#btn_download').attr("href", "YeajinPark_ko.pdf");
+            } else {
+                // load default
+                if(default_lang == "jp") {
+                    // jp
+                    loadLang(content_jp);
+                    $('#btn_download').attr("href", "YeajinPark_jp.pdf");
+                } else {
+                    // kr
+                    loadLang(content_kr);
+                    $('#btn_download').attr("href", "YeajinPark_ko.pdf");
+                }
             }
         });
     </script>
