@@ -224,7 +224,7 @@ var content_kr = {
     timeline4_3: "",
     timeline4_4: "_칸토 도쿄",
     modal1_title: "이즈미 BODY 라보",
-    modal1_scale: "240 만엔",
+    modal1_scale: "240만엔",
     modal1_list_1: "TOP page / Landing Page / 상품상세 페이지",
     modal1_list_2: "로고 제작 (사이트 로고 / Princess 시리즈 브랜드 로고)",
     modal1_list_3: "사이트 구성 / 촬영 이미지 / 카피 문구 작성",
